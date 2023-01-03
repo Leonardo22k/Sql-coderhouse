@@ -9,9 +9,8 @@ CREATE USER 'usuariodeprueba1@coder' IDENTIFIED WITH mysql_native_password BY '1
         -- Este usuario podra ver las tablas, insertar datos y modificar -- 
         
 CREATE USER 'usuariodeprueba2@coder' IDENTIFIED WITH mysql_native_password BY '12345';
-	GRANT SELECT ON *.* TO 'usuariodeprueba2@coder';
-	GRANT INSERT ON *.* TO 'usuariodeprueba2@coder';
-	GRANT UPDATE ON *.* TO 'usuariodeprueba2@coder';
+	GRANT SELECT, INSERT, UPDATE ON *.* TO 'usuariodeprueba2@coder';
+	
 
 
  
