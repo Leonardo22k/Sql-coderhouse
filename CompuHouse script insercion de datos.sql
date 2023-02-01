@@ -3,8 +3,8 @@ USE CompuHouse;
 INSERT INTO clientes
 (nombre_cliente,apellido_cliente,telefono_cliente,direccion_cliente,email_cliente)
 VALUES ('German' ,'Freigedo','4521-3528','Siempre viva 742','chueko@gmail.com'),
-	   ('Fabricio','Galizia','4235-4586','av,jujuy 580','fabry@gmail.com'),
-	   ('Daiana','Patao','1165288563','Tokio 2233','Day22@hotmail.com'),
+       ('Fabricio','Galizia','4235-4586','av,jujuy 580','fabry@gmail.com'),
+       ('Daiana','Patao','1165288563','Tokio 2233','Day22@hotmail.com'),
        ('Pablo','Segundo','1152364587','Espora 2685','pablo2@gmail.com'),
        ('Juan','Abadia','4523-6584','Castelli 1524','JAbadia@gmail.com'),
        ('Noelia','Alderete','6526-4524','Chacabuco 2584','NoeAld@hotmail.com'),
@@ -26,7 +26,7 @@ VALUES ('German' ,'Freigedo','4521-3528','Siempre viva 742','chueko@gmail.com'),
 INSERT INTO proveedores 
 (nombre_proveedor,direccion_proveedor,telefono_proveedor)
 VALUES ('Mundo Computacion','Av Rivadavia 9800','4625-6584'),
-	   ('Diamond System','Av Mayo 500','4628-3561'),
+       ('Diamond System','Av Mayo 500','4628-3561'),
        ('TodoComputacion','jujuy 158','6523-4512'),
        ('SellerCompu','Gral. Alvadrado 443','4862-6584');
        
@@ -35,7 +35,7 @@ INSERT INTO empleados
 (nombre_empleado,apellido_empleado)
 VALUES ('Leonardo','Cantaro'),
        ('Juan','Gomez'),
-	   ('German','Rodriguez'),
+       ('German','Rodriguez'),
        ('Gaston','Lopez'),
        ('Gonzalo','Fernandez');
 
@@ -63,12 +63,12 @@ VALUES ('Placa de video AMD PowerColor Fighter Radeon 6600 Series RX 6600 AXRX 6
 	   ('Motherboard B660m Aorus Pro Ddr4 Gigabyte Intel S1700','57999'),
 	   ('Motherboard Asus Prime A320m-k Am4 Ddr4 Usb 3.0 Hdmi A320','14999'),
 	   ('Gabinete Gamer Atx Xigmatek Duke X3 Fan Led Vidrio Templado','17998'),
-       ('Gabinete Sentey J20 -led Azul Vidrio Templado','20654'),
-       ('Auriculares Razer Kaira X For Xbox Pc Multiplataforma 3.5 F','24999'),
-       ('Razer Barracuda Auricular Gamer Wireless 2.4ghz Y Bluetooth','64636'),
-       ('Pendrive Multilaser Twist PD588 16GB 2.0 negro y plateado','1399'),
+           ('Gabinete Sentey J20 -led Azul Vidrio Templado','20654'),
+           ('Auriculares Razer Kaira X For Xbox Pc Multiplataforma 3.5 F','24999'),
+           ('Razer Barracuda Auricular Gamer Wireless 2.4ghz Y Bluetooth','64636'),
+           ('Pendrive Multilaser Twist PD588 16GB 2.0 negro y plateado','1399'),
 	   ('Cooler Cpu Watercooler Thermaltake Th120 Aio Argb Pcreg','26969'),
-       ('Fan Cooler 120 X120 Cm - Rgb Con Conector A Controlador','1945'),
+           ('Fan Cooler 120 X120 Cm - Rgb Con Conector A Controlador','1945'),
 	   ('Disco duro interno Seagate Barracuda ST1000DM010 1TB','10899'),
 	   ('Disco sólido interno Kingston SA400S37/240G 240GB negro','7286'),
 	   ('Mouse Pad gamer Razer Chroma Goliathus de goma y tela extended 294mm x 920mm x 3mm black','23215');
@@ -80,7 +80,7 @@ VALUES ('1',1,25,'en stock'),
        ('2',1,35,'en stock'),
        ('3',1,22,'en stock'),
        ('4',1,21,'en stock'),
-	   ('5',1,28,'en stock'),
+       ('5',1,28,'en stock'),
        ('6',2,32,'en stock'),
        ('7',2,35,'en stock'),
        ('8',2,39,'en stock'),
@@ -101,7 +101,7 @@ VALUES ('1',1,25,'en stock'),
        ('23',4,44,'en stock'),
        ('24',4,67,'en stock'),
        ('25',4,55,'en stock'),
-	   ('26',1,60,'en stock'),
+       ('26',1,60,'en stock'),
        ('27',1,80,'en stock'),
        ('28',2,50,'en stock'),
        ('29',2,35,'en stock'),
@@ -196,17 +196,17 @@ INSERT INTO pedido
 VALUES('9','2','15','11250','168750'),
       ('23','4','20','62523','1250460'),
       ('25','4','50','26362','1318100'),
-	  ('29','2','20','21235','424700'),
+      ('29','2','20','21235','424700'),
       ('28','2','15','5682','85230'),
-	  ('5','1','20','90365','1807300'),
-	  ('8','2','15','9635','144525'),
-	  ('15','4','20','5802','116040'),
+      ('5','1','20','90365','1807300'),
+      ('8','2','15','9635','144525'),
+      ('15','4','20','5802','116040'),
       ('20','3','10','16500','165000');
  
  INSERT INTO repartidor
  (nombre_repartidor,telefono_repartidor)
  VALUES('Adreani','0800-122-1112'),
-	   ('Correo Argentino','4625-0988'),
+       ('Correo Argentino','4625-0988'),
        ('rapiboy','+5493413580076');
  
 
